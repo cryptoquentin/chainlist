@@ -85,7 +85,7 @@ function Home({ changeTheme, theme, sortedChains }) {
     <div className={styles.container}>
       <Head>
         <title>Blocklist</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://forum.blockchainlauncher.org/wp-content/uploads/2022/03/blockchain.png" />
       </Head>
 
       <main className={styles.main}>
