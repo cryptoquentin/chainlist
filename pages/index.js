@@ -93,13 +93,13 @@ function Home({ changeTheme, theme, sortedChains }) {
           <div className={classes.copyContainer}>
             <div className={classes.copyCentered}>
               <Typography variant="h1" className={classes.chainListSpacing}>
-                <span className={classes.helpingUnderline}>Chainlist</span>
+                <span className={classes.helpingUnderline}>Blockchainlist</span>
               </Typography>
               <Typography variant="h2" className={classes.helpingParagraph}>
                 Helping users connect to EVM powered networks
               </Typography>
               <Typography className={classes.subTitle}>
-                Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3
+                Blockchainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3
                 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain.
               </Typography>
               <Button
