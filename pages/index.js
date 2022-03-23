@@ -84,7 +84,7 @@ function Home({ changeTheme, theme, sortedChains }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Blockchainlist</title>
+        <title>Blocklist</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -93,14 +93,14 @@ function Home({ changeTheme, theme, sortedChains }) {
           <div className={classes.copyContainer}>
             <div className={classes.copyCentered}>
               <Typography variant="h1" className={classes.chainListSpacing}>
-                <span className={classes.helpingUnderline}>Blockchainlist</span>
+                <span className={classes.helpingUnderline}>Blocklist</span>
               </Typography>
               <Typography variant="h2" className={classes.helpingParagraph}>
                 Helping users connect to EVM powered networks
               </Typography>
               <Typography className={classes.subTitle}>
-                Blockchainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3
-                middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain. Enjoy !
+                Blocklist is a list of EVM networks. Users can use the information to connect their wallets and Web3
+                middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain.
               </Typography>
               <Button
                 size="large"
