@@ -84,7 +84,7 @@ function Home({ changeTheme, theme, sortedChains }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Chainlist</title>
+        <title>Blockchainlist</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -125,7 +125,7 @@ function Home({ changeTheme, theme, sortedChains }) {
               <div className={classes.socials}>
                 <a
                   className={`${classes.socialButton}`}
-                  href="https://github.com/DefiLlama/chainlist"
+                  href="https://github.com/cryptoquentin/chainlist"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -142,7 +142,7 @@ function Home({ changeTheme, theme, sortedChains }) {
 
                 <a
                   className={`${classes.socialButton}`}
-                  href="https://discord.com/invite/buPFYXzDDd"
+                  href="https://forum.blockchainlauncher.org"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
